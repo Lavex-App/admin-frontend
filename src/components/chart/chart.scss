@@ -1,0 +1,27 @@
+.chart {
+  flex: 4;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .chartAreaTop {
+    stop-color: #40E6C7;
+  }
+
+  .chartAreaMiddle {
+    stop-color: #2B9985;
+  }
+
+  .chartAreaBottom {
+    stop-color: #19594D;
+  }
+
+  .chartGrid {
+    stroke: #d2f9f2;
+  }
+}

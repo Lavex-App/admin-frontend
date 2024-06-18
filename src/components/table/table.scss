@@ -1,0 +1,37 @@
+.table {
+  .columnLabel {
+    font-weight: bold;
+    color: #19594D;
+    padding: 20px;
+  }
+
+  .status {
+    font-weight: 500;
+    border-radius: 5px;
+
+    &.notAuthorized, &.canceled {
+      color: crimson;
+      background-color: rgba(250, 0, 0, 0.05);
+    }
+
+    &.pending, &.waitingPayment {
+      color: goldenrod;
+      background-color: rgba(255, 217, 0, 0.05);
+    }
+
+    &.inProgress {
+      color: brown;
+      background-color: rgba(122, 45, 0, 0.08);
+    }
+
+    &.completed {
+      color: green;
+      background-color: rgba(0, 128, 0, 0.05);
+    }
+
+    &.transport {
+      color: rebeccapurple;
+      background-color: rgba(160, 32, 240, 0.05);
+    }
+  }
+}

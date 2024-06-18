@@ -1,0 +1,93 @@
+.sidebar {
+  flex: 1;
+  border-right: .5px solid #d2f9f2;
+  min-height: 100vh;
+  background-color: white;
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #19594D;
+
+    }
+  }
+
+  hr {
+    height: 0;
+    border: .5px solid #d2f9f2;
+  }
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .title {
+        font-size: 0.625rem;
+        font-weight: bold;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      .link {
+        text-decoration: none;
+
+        li {
+          display: flex;
+          align-items: center;
+          padding: 5px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #d2f9f2;
+          }
+
+          .icon {
+            font-size: 1.125rem;
+            color: #2B9985;
+          }
+
+          span {
+            font-size: 0.813rem;
+            font-weight: 600;
+            color: #888;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    .colorOption {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      border: 1px solid #3DD9BC;
+      cursor: pointer;
+      margin: 5px;
+
+      &:nth-child(1) {
+        background-color: #40E6C7;
+      }
+
+      &:nth-child(2) {
+        background-color: #2B9985;
+      }
+    }
+  }
+}
